@@ -1,0 +1,428 @@
+[debug] [2024-06-27T06:59:34.006Z] ----------------------------------------------------------------------
+[debug] [2024-06-27T06:59:34.010Z] Command:       /home/radoslaw-klak/.nvm/versions/node/v20.13.1/bin/node /home/radoslaw-klak/.nvm/versions/node/v20.13.1/bin/firebase emulators:start
+[debug] [2024-06-27T06:59:34.011Z] CLI Version:   13.12.0
+[debug] [2024-06-27T06:59:34.011Z] Platform:      linux
+[debug] [2024-06-27T06:59:34.012Z] Node Version:  v20.13.1
+[debug] [2024-06-27T06:59:34.012Z] Time:          Thu Jun 27 2024 08:59:34 GMT+0200 (czas środkowoeuropejski letni)
+[debug] [2024-06-27T06:59:34.012Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-06-27T06:59:34.226Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-06-27T06:59:34.227Z] > authorizing via signed-in user (radek.klak@gmail.com)
+[debug] [2024-06-27T06:59:35.943Z] openjdk version "21.0.3" 2024-04-16
+
+[debug] [2024-06-27T06:59:35.944Z] OpenJDK Runtime Environment (build 21.0.3+9-Ubuntu-1ubuntu1)
+OpenJDK 64-Bit Server VM (build 21.0.3+9-Ubuntu-1ubuntu1, mixed mode, sharing)
+
+[debug] [2024-06-27T06:59:36.062Z] Parsed Java major version: 21
+[info] i  emulators: Starting emulators: auth, functions, firestore {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: auth, functions, firestore"}}
+[debug] [2024-06-27T06:59:36.076Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-06-27T06:59:36.076Z] [auth] Authentication Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-06-27T06:59:36.076Z] [firestore] Firestore Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-06-27T06:59:36.076Z] [firestore.websocket] websocket server for firestore only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-06-27T06:59:36.077Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"auth":[{"address":"127.0.0.1","family":"IPv4","port":9099}],"firestore":[{"address":"127.0.0.1","family":"IPv4","port":8080}],"firestore.websocket":[{"address":"127.0.0.1","family":"IPv4","port":9150}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2024-06-27T06:59:36.081Z] [hub] writing locator at /tmp/hub-myclipo-project.json
+[debug] [2024-06-27T06:59:36.087Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-06-27T06:59:36.087Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-06-27T06:59:36.088Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"auth":[{"address":"127.0.0.1","family":"IPv4","port":9099}],"firestore":[{"address":"127.0.0.1","family":"IPv4","port":8080}],"firestore.websocket":[{"address":"127.0.0.1","family":"IPv4","port":9150}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[warn] ⚠  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: database, hosting, pubsub, storage, dataconnect {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mdatabase, hosting, pubsub, storage, dataconnect\u001b[22m"}}
+[debug] [2024-06-27T06:59:36.101Z] defaultcredentials: writing to file /home/radoslaw-klak/.config/firebase/radek_klak_gmail.com_application_default_credentials.json
+[debug] [2024-06-27T06:59:36.102Z] Setting GAC to /home/radoslaw-klak/.config/firebase/radek_klak_gmail.com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to /home/radoslaw-klak/.config/firebase/radek_klak_gmail.com_application_default_credentials.json"}}
+[debug] [2024-06-27T06:59:36.104Z] > refreshing access token with scopes: []
+[debug] [2024-06-27T06:59:36.106Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-06-27T06:59:36.106Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-06-27T06:59:36.337Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2024-06-27T06:59:36.337Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-06-27T06:59:36.524Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/myclipo-project/adminSdkConfig [none]
+[debug] [2024-06-27T06:59:36.837Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/myclipo-project/adminSdkConfig 200
+[debug] [2024-06-27T06:59:36.837Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/myclipo-project/adminSdkConfig {"projectId":"myclipo-project","storageBucket":"myclipo-project.appspot.com"}
+[debug] [2024-06-27T06:59:37.168Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"firestore"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2024-06-27T06:59:37.169Z] Ignoring unsupported arg: single_project_mode_error {"metadata":{"emulator":{"name":"firestore"},"message":"Ignoring unsupported arg: single_project_mode_error"}}
+[debug] [2024-06-27T06:59:37.169Z] Starting Firestore Emulator with command {"binary":"java","args":["-Dgoogle.cloud_firestore.debug_log_level=FINE","-Duser.language=en","-jar","/home/radoslaw-klak/.cache/firebase/emulators/cloud-firestore-emulator-v1.19.7.jar","--host","127.0.0.1","--port",8080,"--websocket_port",9150,"--project_id","myclipo-project","--rules","/home/radoslaw-klak/projects/next/firestore.rules","--single_project_mode",true,"--functions_emulator","127.0.0.1:5001"],"optionalArgs":["port","webchannel_port","host","rules","websocket_port","functions_emulator","seed_from_export","project_id","single_project_mode"],"joinArgs":false,"shell":false} {"metadata":{"emulator":{"name":"firestore"},"message":"Starting Firestore Emulator with command {\"binary\":\"java\",\"args\":[\"-Dgoogle.cloud_firestore.debug_log_level=FINE\",\"-Duser.language=en\",\"-jar\",\"/home/radoslaw-klak/.cache/firebase/emulators/cloud-firestore-emulator-v1.19.7.jar\",\"--host\",\"127.0.0.1\",\"--port\",8080,\"--websocket_port\",9150,\"--project_id\",\"myclipo-project\",\"--rules\",\"/home/radoslaw-klak/projects/next/firestore.rules\",\"--single_project_mode\",true,\"--functions_emulator\",\"127.0.0.1:5001\"],\"optionalArgs\":[\"port\",\"webchannel_port\",\"host\",\"rules\",\"websocket_port\",\"functions_emulator\",\"seed_from_export\",\"project_id\",\"single_project_mode\"],\"joinArgs\":false,\"shell\":false}"}}
+[info] i  firestore: Firestore Emulator logging to firestore-debug.log {"metadata":{"emulator":{"name":"firestore"},"message":"Firestore Emulator logging to \u001b[1mfirestore-debug.log\u001b[22m"}}
+[debug] [2024-06-27T06:59:47.308Z] Jun 27, 2024 8:59:46 AM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketServer start
+INFO: Started WebSocket server on ws://127.0.0.1:9150
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jun 27, 2024 8:59:46 AM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketServer start\nINFO: Started WebSocket server on ws://127.0.0.1:9150\n"}}
+[debug] [2024-06-27T06:59:47.409Z] API endpoint: http:// {"metadata":{"emulator":{"name":"firestore"},"message":"API endpoint: http://"}}
+[debug] [2024-06-27T06:59:47.409Z] 127.0.0.1:8080
+If you are using a library that supports the FIRESTORE_EMULATOR_HOST environment variable, run:
+
+   export FIRESTORE_EMULATOR_HOST=127.0.0.1:8080
+
+If you are running a Firestore in Datastore Mode project, run:
+
+   export DATASTORE_EMULATOR_HOST=127.0.0.1:8080
+
+Note: Support for Datastore Mode is in preview. If you encounter any bugs please file at https://github.com/firebase/firebase-tools/issues.
+Dev App Server is now running.
+
+ {"metadata":{"emulator":{"name":"firestore"},"message":"127.0.0.1:8080\nIf you are using a library that supports the FIRESTORE_EMULATOR_HOST environment variable, run:\n\n   export FIRESTORE_EMULATOR_HOST=127.0.0.1:8080\n\nIf you are running a Firestore in Datastore Mode project, run:\n\n   export DATASTORE_EMULATOR_HOST=127.0.0.1:8080\n\nNote: Support for Datastore Mode is in preview. If you encounter any bugs please file at https://github.com/firebase/firebase-tools/issues.\nDev App Server is now running.\n\n"}}
+[info] ✔  firestore: Firestore Emulator UI websocket is running on 9150. {"metadata":{"emulator":{"name":"firestore"},"message":"Firestore Emulator UI websocket is running on 9150."}}
+[info] i  ui: downloading ui-v1.12.1.zip... {"metadata":{"emulator":{"name":"ui"},"message":"downloading ui-v1.12.1.zip..."}}
+[debug] [2024-06-27T06:59:57.390Z] >>> [apiv2][query] GET https://storage.googleapis.com/firebase-preview-drop/emulator/ui-v1.12.1.zip 
+[debug] [2024-06-27T06:59:57.503Z] <<< [apiv2][status] GET https://storage.googleapis.com/firebase-preview-drop/emulator/ui-v1.12.1.zip 200
+[debug] [2024-06-27T06:59:57.504Z] <<< [apiv2][body] GET https://storage.googleapis.com/firebase-preview-drop/emulator/ui-v1.12.1.zip [stream]
+[debug] [2024-06-27T07:00:01.339Z] Data is 3498269
+[debug] [2024-06-27T07:00:01.339Z] [unzip] Entry: client/ (compressed_size=0 bytes, uncompressed_size=0 bytes)
+[debug] [2024-06-27T07:00:01.339Z] [unzip] Processing entry: client/
+[debug] [2024-06-27T07:00:01.339Z] [unzip] mkdir: /home/radoslaw-klak/.cache/firebase/emulators/ui-v1.12.1/client/
+[debug] [2024-06-27T07:00:01.340Z] [unzip] Entry: client/favicon.ico (compressed_size=2933 bytes, uncompressed_size=13294 bytes)
+[debug] [2024-06-27T07:00:01.341Z] [unzip] Processing entry: client/favicon.ico
+[debug] [2024-06-27T07:00:01.341Z] [unzip] else mkdir: /home/radoslaw-klak/.cache/firebase/emulators/ui-v1.12.1/client
+[debug] [2024-06-27T07:00:01.341Z] [unzip] deflating: /home/radoslaw-klak/.cache/firebase/emulators/ui-v1.12.1/client/favicon.ico
+[debug] [2024-06-27T07:00:01.347Z] [unzip] Entry: client/mstile-150x150.png (compressed_size=2034 bytes, uncompressed_size=2034 bytes)
+[debug] [2024-06-27T07:00:01.347Z] [unzip] Processing entry: client/mstile-150x150.png
+[debug] [2024-06-27T07:00:01.347Z] [unzip] else mkdir: /home/radoslaw-klak/.cache/firebase/emulators/ui-v1.12.1/client
+[debug] [2024-06-27T07:00:01.348Z] [unzip] Writing file: /home/radoslaw-klak/.cache/firebase/emulators/ui-v1.12.1/client/mstile-150x150.png
+[debug] [2024-06-27T07:00:01.351Z] [unzip] Entry: client/favicon-16x16.png (compressed_size=293 bytes, uncompressed_size=293 bytes)
+[debug] [2024-06-27T07:00:01.352Z] [unzip] Processing entry: client/favicon-16x16.png
+[debug] [2024-06-27T07:00:01.352Z] [unzip] else mkdir: /home/radoslaw-klak/.cache/firebase/emulators/ui-v1.12.1/client
+[debug] [2024-06-27T07:00:01.352Z] [unzip] Writing file: /home/radoslaw-klak/.cache/firebase/emulators/ui-v1.12.1/client/favicon-16x16.png
+[debug] [2024-06-27T07:00:01.353Z] [unzip] Entry: client/favicon-32x32.png (compressed_size=475 bytes, uncompressed_size=475 bytes)
+[debug] [2024-06-27T07:00:01.353Z] [unzip] Processing entry: client/favicon-32x32.png
+[debug] [2024-06-27T07:00:01.353Z] [unzip] else mkdir: /home/radoslaw-klak/.cache/firebase/emulators/ui-v1.12.1/client
+[debug] [2024-06-27T07:00:01.353Z] [unzip] Writing file: /home/radoslaw-klak/.cache/firebase/emulators/ui-v1.12.1/client/favicon-32x32.png
+[debug] [2024-06-27T07:00:01.354Z] [unzip] Entry: client/manifest.json (compressed_size=245 bytes, uncompressed_size=551 bytes)
+[debug] [2024-06-27T07:00:01.354Z] [unzip] Processing entry: client/manifest.json
+[debug] [2024-06-27T07:00:01.354Z] [unzip] else mkdir: /home/radoslaw-klak/.cache/firebase/emulators/ui-v1.12.1/client
+[debug] [2024-06-27T07:00:01.354Z] [unzip] deflating: /home/radoslaw-klak/.cache/firebase/emulators/ui-v1.12.1/client/manifest.json
+[debug] [2024-06-27T07:00:01.356Z] [unzip] Entry: client/index.html (compressed_size=1365 bytes, uncompressed_size=3071 bytes)
+[debug] [2024-06-27T07:00:01.356Z] [unzip] Processing entry: client/index.html
+[debug] [2024-06-27T07:00:01.356Z] [unzip] else mkdir: /home/radoslaw-klak/.cache/firebase/emulators/ui-v1.12.1/client
+[debug] [2024-06-27T07:00:01.356Z] [unzip] deflating: /home/radoslaw-klak/.cache/firebase/emulators/ui-v1.12.1/client/index.html
+[debug] [2024-06-27T07:00:01.358Z] [unzip] Entry: client/robots.txt (compressed_size=26 bytes, uncompressed_size=26 bytes)
+[debug] [2024-06-27T07:00:01.358Z] [unzip] Processing entry: client/robots.txt
+[debug] [2024-06-27T07:00:01.358Z] [unzip] else mkdir: /home/radoslaw-klak/.cache/firebase/emulators/ui-v1.12.1/client
+[debug] [2024-06-27T07:00:01.359Z] [unzip] Writing file: /home/radoslaw-klak/.cache/firebase/emulators/ui-v1.12.1/client/robots.txt
+[debug] [2024-06-27T07:00:01.360Z] [unzip] Entry: client/android-chrome-512x512.png (compressed_size=5369 bytes, uncompressed_size=5411 bytes)
+[debug] [2024-06-27T07:00:01.360Z] [unzip] Processing entry: client/android-chrome-512x512.png
+[debug] [2024-06-27T07:00:01.360Z] [unzip] else mkdir: /home/radoslaw-klak/.cache/firebase/emulators/ui-v1.12.1/client
+[debug] [2024-06-27T07:00:01.361Z] [unzip] deflating: /home/radoslaw-klak/.cache/firebase/emulators/ui-v1.12.1/client/android-chrome-512x512.png
+[debug] [2024-06-27T07:00:01.362Z] [unzip] Entry: client/assets/ (compressed_size=0 bytes, uncompressed_size=0 bytes)
+[debug] [2024-06-27T07:00:01.363Z] [unzip] Processing entry: client/assets/
+[debug] [2024-06-27T07:00:01.363Z] [unzip] mkdir: /home/radoslaw-klak/.cache/firebase/emulators/ui-v1.12.1/client/assets/
+[debug] [2024-06-27T07:00:01.363Z] [unzip] Entry: client/assets/img/ (compressed_size=0 bytes, uncompressed_size=0 bytes)
+[debug] [2024-06-27T07:00:01.363Z] [unzip] Processing entry: client/assets/img/
+[debug] [2024-06-27T07:00:01.363Z] [unzip] mkdir: /home/radoslaw-klak/.cache/firebase/emulators/ui-v1.12.1/client/assets/img/
+[debug] [2024-06-27T07:00:01.364Z] [unzip] Entry: client/assets/img/database.png (compressed_size=29449 bytes, uncompressed_size=29988 bytes)
+[debug] [2024-06-27T07:00:01.364Z] [unzip] Processing entry: client/assets/img/database.png
+[debug] [2024-06-27T07:00:01.364Z] [unzip] else mkdir: /home/radoslaw-klak/.cache/firebase/emulators/ui-v1.12.1/client/assets/img
+[debug] [2024-06-27T07:00:01.365Z] [unzip] deflating: /home/radoslaw-klak/.cache/firebase/emulators/ui-v1.12.1/client/assets/img/database.png
+[debug] [2024-06-27T07:00:01.368Z] [unzip] Entry: client/assets/provider-icons/ (compressed_size=0 bytes, uncompressed_size=0 bytes)
+[debug] [2024-06-27T07:00:01.368Z] [unzip] Processing entry: client/assets/provider-icons/
+[debug] [2024-06-27T07:00:01.368Z] [unzip] mkdir: /home/radoslaw-klak/.cache/firebase/emulators/ui-v1.12.1/client/assets/provider-icons/
+[debug] [2024-06-27T07:00:01.369Z] [unzip] Entry: client/assets/provider-icons/auth_service_play_games.svg (compressed_size=565 bytes, uncompressed_size=1173 bytes)
+[debug] [2024-06-27T07:00:01.369Z] [unzip] Processing entry: client/assets/provider-icons/auth_service_play_games.svg
+[debug] [2024-06-27T07:00:01.369Z] [unzip] else mkdir: /home/radoslaw-klak/.cache/firebase/emulators/ui-v1.12.1/client/assets/provider-icons
+[debug] [2024-06-27T07:00:01.369Z] [unzip] deflating: /home/radoslaw-klak/.cache/firebase/emulators/ui-v1.12.1/client/assets/provider-icons/auth_service_play_games.svg
+[debug] [2024-06-27T07:00:01.371Z] [unzip] Entry: client/assets/provider-icons/auth_service_game_center.svg (compressed_size=991 bytes, uncompressed_size=3921 bytes)
+[debug] [2024-06-27T07:00:01.371Z] [unzip] Processing entry: client/assets/provider-icons/auth_service_game_center.svg
+[debug] [2024-06-27T07:00:01.371Z] [unzip] else mkdir: /home/radoslaw-klak/.cache/firebase/emulators/ui-v1.12.1/client/assets/provider-icons
+[debug] [2024-06-27T07:00:01.372Z] [unzip] deflating: /home/radoslaw-klak/.cache/firebase/emulators/ui-v1.12.1/client/assets/provider-icons/auth_service_game_center.svg
+[debug] [2024-06-27T07:00:01.373Z] [unzip] Entry: client/assets/provider-icons/auth_service_google.svg (compressed_size=409 bytes, uncompressed_size=720 bytes)
+[debug] [2024-06-27T07:00:01.373Z] [unzip] Processing entry: client/assets/provider-icons/auth_service_google.svg
+[debug] [2024-06-27T07:00:01.373Z] [unzip] else mkdir: /home/radoslaw-klak/.cache/firebase/emulators/ui-v1.12.1/client/assets/provider-icons
+[debug] [2024-06-27T07:00:01.374Z] [unzip] deflating: /home/radoslaw-klak/.cache/firebase/emulators/ui-v1.12.1/client/assets/provider-icons/auth_service_google.svg
+[debug] [2024-06-27T07:00:01.375Z] [unzip] Entry: client/assets/provider-icons/auth_service_yahoo.svg (compressed_size=577 bytes, uncompressed_size=1182 bytes)
+[debug] [2024-06-27T07:00:01.375Z] [unzip] Processing entry: client/assets/provider-icons/auth_service_yahoo.svg
+[debug] [2024-06-27T07:00:01.375Z] [unzip] else mkdir: /home/radoslaw-klak/.cache/firebase/emulators/ui-v1.12.1/client/assets/provider-icons
+[debug] [2024-06-27T07:00:01.376Z] [unzip] deflating: /home/radoslaw-klak/.cache/firebase/emulators/ui-v1.12.1/client/assets/provider-icons/auth_service_yahoo.svg
+[debug] [2024-06-27T07:00:01.377Z] [unzip] Entry: client/assets/provider-icons/auth_service_email.svg (compressed_size=228 bytes, uncompressed_size=326 bytes)
+[debug] [2024-06-27T07:00:01.377Z] [unzip] Processing entry: client/assets/provider-icons/auth_service_email.svg
+[debug] [2024-06-27T07:00:01.378Z] [unzip] else mkdir: /home/radoslaw-klak/.cache/firebase/emulators/ui-v1.12.1/client/assets/provider-icons
+[debug] [2024-06-27T07:00:01.378Z] [unzip] deflating: /home/radoslaw-klak/.cache/firebase/emulators/ui-v1.12.1/client/assets/provider-icons/auth_service_email.svg
+[debug] [2024-06-27T07:00:01.379Z] [unzip] Entry: client/assets/provider-icons/auth_service_saml.svg (compressed_size=575 bytes, uncompressed_size=1226 bytes)
+[debug] [2024-06-27T07:00:01.380Z] [unzip] Processing entry: client/assets/provider-icons/auth_service_saml.svg
+[debug] [2024-06-27T07:00:01.380Z] [unzip] else mkdir: /home/radoslaw-klak/.cache/firebase/emulators/ui-v1.12.1/client/assets/provider-icons
+[debug] [2024-06-27T07:00:01.380Z] [unzip] deflating: /home/radoslaw-klak/.cache/firebase/emulators/ui-v1.12.1/client/assets/provider-icons/auth_service_saml.svg
+[debug] [2024-06-27T07:00:01.381Z] [unzip] Entry: client/assets/provider-icons/auth_service_oidc.svg (compressed_size=414 bytes, uncompressed_size=858 bytes)
+[debug] [2024-06-27T07:00:01.381Z] [unzip] Processing entry: client/assets/provider-icons/auth_service_oidc.svg
+[debug] [2024-06-27T07:00:01.381Z] [unzip] else mkdir: /home/radoslaw-klak/.cache/firebase/emulators/ui-v1.12.1/client/assets/provider-icons
+[debug] [2024-06-27T07:00:01.382Z] [unzip] deflating: /home/radoslaw-klak/.cache/firebase/emulators/ui-v1.12.1/client/assets/provider-icons/auth_service_oidc.svg
+[debug] [2024-06-27T07:00:01.383Z] [unzip] Entry: client/assets/provider-icons/auth_service_facebook.svg (compressed_size=289 bytes, uncompressed_size=457 bytes)
+[debug] [2024-06-27T07:00:01.383Z] [unzip] Processing entry: client/assets/provider-icons/auth_service_facebook.svg
+[debug] [2024-06-27T07:00:01.383Z] [unzip] else mkdir: /home/radoslaw-klak/.cache/firebase/emulators/ui-v1.12.1/client/assets/provider-icons
+[debug] [2024-06-27T07:00:01.384Z] [unzip] deflating: /home/radoslaw-klak/.cache/firebase/emulators/ui-v1.12.1/client/assets/provider-icons/auth_service_facebook.svg
+[debug] [2024-06-27T07:00:01.385Z] [unzip] Entry: client/assets/provider-icons/auth_service_github.svg (compressed_size=466 bytes, uncompressed_size=838 bytes)
+[debug] [2024-06-27T07:00:01.385Z] [unzip] Processing entry: client/assets/provider-icons/auth_service_github.svg
+[debug] [2024-06-27T07:00:01.386Z] [unzip] else mkdir: /home/radoslaw-klak/.cache/firebase/emulators/ui-v1.12.1/client/assets/provider-icons
+[debug] [2024-06-27T07:00:01.386Z] [unzip] deflating: /home/radoslaw-klak/.cache/firebase/emulators/ui-v1.12.1/client/assets/provider-icons/auth_service_github.svg
+[debug] [2024-06-27T07:00:01.388Z] [unzip] Entry: client/assets/provider-icons/auth_service_phone.svg (compressed_size=261 bytes, uncompressed_size=414 bytes)
+[debug] [2024-06-27T07:00:01.388Z] [unzip] Processing entry: client/assets/provider-icons/auth_service_phone.svg
+[debug] [2024-06-27T07:00:01.388Z] [unzip] else mkdir: /home/radoslaw-klak/.cache/firebase/emulators/ui-v1.12.1/client/assets/provider-icons
+[debug] [2024-06-27T07:00:01.389Z] [unzip] deflating: /home/radoslaw-klak/.cache/firebase/emulators/ui-v1.12.1/client/assets/provider-icons/auth_service_phone.svg
+[debug] [2024-06-27T07:00:01.390Z] [unzip] Entry: client/assets/provider-icons/auth_service_apple.svg (compressed_size=230 bytes, uncompressed_size=334 bytes)
+[debug] [2024-06-27T07:00:01.391Z] [unzip] Processing entry: client/assets/provider-icons/auth_service_apple.svg
+[debug] [2024-06-27T07:00:01.391Z] [unzip] else mkdir: /home/radoslaw-klak/.cache/firebase/emulators/ui-v1.12.1/client/assets/provider-icons
+[debug] [2024-06-27T07:00:01.391Z] [unzip] deflating: /home/radoslaw-klak/.cache/firebase/emulators/ui-v1.12.1/client/assets/provider-icons/auth_service_apple.svg
+[debug] [2024-06-27T07:00:01.394Z] [unzip] Entry: client/assets/provider-icons/auth_service_twitter.svg (compressed_size=444 bytes, uncompressed_size=751 bytes)
+[debug] [2024-06-27T07:00:01.394Z] [unzip] Processing entry: client/assets/provider-icons/auth_service_twitter.svg
+[debug] [2024-06-27T07:00:01.395Z] [unzip] else mkdir: /home/radoslaw-klak/.cache/firebase/emulators/ui-v1.12.1/client/assets/provider-icons
+[debug] [2024-06-27T07:00:01.395Z] [unzip] deflating: /home/radoslaw-klak/.cache/firebase/emulators/ui-v1.12.1/client/assets/provider-icons/auth_service_twitter.svg
+[debug] [2024-06-27T07:00:01.397Z] [unzip] Entry: client/assets/provider-icons/auth_service_mslive.svg (compressed_size=203 bytes, uncompressed_size=378 bytes)
+[debug] [2024-06-27T07:00:01.398Z] [unzip] Processing entry: client/assets/provider-icons/auth_service_mslive.svg
+[debug] [2024-06-27T07:00:01.398Z] [unzip] else mkdir: /home/radoslaw-klak/.cache/firebase/emulators/ui-v1.12.1/client/assets/provider-icons
+[debug] [2024-06-27T07:00:01.399Z] [unzip] deflating: /home/radoslaw-klak/.cache/firebase/emulators/ui-v1.12.1/client/assets/provider-icons/auth_service_mslive.svg
+[debug] [2024-06-27T07:00:01.400Z] [unzip] Entry: client/assets/extensions/ (compressed_size=0 bytes, uncompressed_size=0 bytes)
+[debug] [2024-06-27T07:00:01.400Z] [unzip] Processing entry: client/assets/extensions/
+[debug] [2024-06-27T07:00:01.400Z] [unzip] mkdir: /home/radoslaw-klak/.cache/firebase/emulators/ui-v1.12.1/client/assets/extensions/
+[debug] [2024-06-27T07:00:01.401Z] [unzip] Entry: client/assets/extensions/default-extension.png (compressed_size=1646 bytes, uncompressed_size=1657 bytes)
+[debug] [2024-06-27T07:00:01.401Z] [unzip] Processing entry: client/assets/extensions/default-extension.png
+[debug] [2024-06-27T07:00:01.401Z] [unzip] else mkdir: /home/radoslaw-klak/.cache/firebase/emulators/ui-v1.12.1/client/assets/extensions
+[debug] [2024-06-27T07:00:01.401Z] [unzip] deflating: /home/radoslaw-klak/.cache/firebase/emulators/ui-v1.12.1/client/assets/extensions/default-extension.png
+[debug] [2024-06-27T07:00:01.403Z] [unzip] Entry: client/assets/index-Cj5I7867.css (compressed_size=35786 bytes, uncompressed_size=297937 bytes)
+[debug] [2024-06-27T07:00:01.403Z] [unzip] Processing entry: client/assets/index-Cj5I7867.css
+[debug] [2024-06-27T07:00:01.403Z] [unzip] else mkdir: /home/radoslaw-klak/.cache/firebase/emulators/ui-v1.12.1/client/assets
+[debug] [2024-06-27T07:00:01.403Z] [unzip] deflating: /home/radoslaw-klak/.cache/firebase/emulators/ui-v1.12.1/client/assets/index-Cj5I7867.css
+[debug] [2024-06-27T07:00:01.407Z] [unzip] Entry: client/assets/index-JXEx31eZ.js (compressed_size=563896 bytes, uncompressed_size=2020866 bytes)
+[debug] [2024-06-27T07:00:01.407Z] [unzip] Processing entry: client/assets/index-JXEx31eZ.js
+[debug] [2024-06-27T07:00:01.408Z] [unzip] else mkdir: /home/radoslaw-klak/.cache/firebase/emulators/ui-v1.12.1/client/assets
+[debug] [2024-06-27T07:00:01.408Z] [unzip] deflating: /home/radoslaw-klak/.cache/firebase/emulators/ui-v1.12.1/client/assets/index-JXEx31eZ.js
+[debug] [2024-06-27T07:00:01.436Z] [unzip] Entry: client/assets/index-JXEx31eZ.js.map (compressed_size=2229196 bytes, uncompressed_size=9596104 bytes)
+[debug] [2024-06-27T07:00:01.436Z] [unzip] Processing entry: client/assets/index-JXEx31eZ.js.map
+[debug] [2024-06-27T07:00:01.436Z] [unzip] else mkdir: /home/radoslaw-klak/.cache/firebase/emulators/ui-v1.12.1/client/assets
+[debug] [2024-06-27T07:00:01.437Z] [unzip] deflating: /home/radoslaw-klak/.cache/firebase/emulators/ui-v1.12.1/client/assets/index-JXEx31eZ.js.map
+[debug] [2024-06-27T07:00:01.601Z] [unzip] Entry: client/safari-pinned-tab.svg (compressed_size=1433 bytes, uncompressed_size=2611 bytes)
+[debug] [2024-06-27T07:00:01.602Z] [unzip] Processing entry: client/safari-pinned-tab.svg
+[debug] [2024-06-27T07:00:01.602Z] [unzip] else mkdir: /home/radoslaw-klak/.cache/firebase/emulators/ui-v1.12.1/client
+[debug] [2024-06-27T07:00:01.602Z] [unzip] deflating: /home/radoslaw-klak/.cache/firebase/emulators/ui-v1.12.1/client/safari-pinned-tab.svg
+[debug] [2024-06-27T07:00:01.603Z] [unzip] Entry: client/browserconfig.xml (compressed_size=491 bytes, uncompressed_size=822 bytes)
+[debug] [2024-06-27T07:00:01.603Z] [unzip] Processing entry: client/browserconfig.xml
+[debug] [2024-06-27T07:00:01.603Z] [unzip] else mkdir: /home/radoslaw-klak/.cache/firebase/emulators/ui-v1.12.1/client
+[debug] [2024-06-27T07:00:01.604Z] [unzip] deflating: /home/radoslaw-klak/.cache/firebase/emulators/ui-v1.12.1/client/browserconfig.xml
+[debug] [2024-06-27T07:00:01.605Z] [unzip] Entry: client/android-chrome-192x192.png (compressed_size=2684 bytes, uncompressed_size=2684 bytes)
+[debug] [2024-06-27T07:00:01.605Z] [unzip] Processing entry: client/android-chrome-192x192.png
+[debug] [2024-06-27T07:00:01.605Z] [unzip] else mkdir: /home/radoslaw-klak/.cache/firebase/emulators/ui-v1.12.1/client
+[debug] [2024-06-27T07:00:01.605Z] [unzip] Writing file: /home/radoslaw-klak/.cache/firebase/emulators/ui-v1.12.1/client/android-chrome-192x192.png
+[debug] [2024-06-27T07:00:01.606Z] [unzip] Entry: client/apple-touch-icon.png (compressed_size=2123 bytes, uncompressed_size=2152 bytes)
+[debug] [2024-06-27T07:00:01.606Z] [unzip] Processing entry: client/apple-touch-icon.png
+[debug] [2024-06-27T07:00:01.606Z] [unzip] else mkdir: /home/radoslaw-klak/.cache/firebase/emulators/ui-v1.12.1/client
+[debug] [2024-06-27T07:00:01.606Z] [unzip] deflating: /home/radoslaw-klak/.cache/firebase/emulators/ui-v1.12.1/client/apple-touch-icon.png
+[debug] [2024-06-27T07:00:01.607Z] [unzip] Entry: server/ (compressed_size=0 bytes, uncompressed_size=0 bytes)
+[debug] [2024-06-27T07:00:01.607Z] [unzip] Processing entry: server/
+[debug] [2024-06-27T07:00:01.607Z] [unzip] mkdir: /home/radoslaw-klak/.cache/firebase/emulators/ui-v1.12.1/server/
+[debug] [2024-06-27T07:00:01.608Z] [unzip] Entry: server/server.mjs.map (compressed_size=286219 bytes, uncompressed_size=1310517 bytes)
+[debug] [2024-06-27T07:00:01.608Z] [unzip] Processing entry: server/server.mjs.map
+[debug] [2024-06-27T07:00:01.608Z] [unzip] else mkdir: /home/radoslaw-klak/.cache/firebase/emulators/ui-v1.12.1/server
+[debug] [2024-06-27T07:00:01.608Z] [unzip] deflating: /home/radoslaw-klak/.cache/firebase/emulators/ui-v1.12.1/server/server.mjs.map
+[debug] [2024-06-27T07:00:01.622Z] [unzip] Entry: server/assets/ (compressed_size=0 bytes, uncompressed_size=0 bytes)
+[debug] [2024-06-27T07:00:01.622Z] [unzip] Processing entry: server/assets/
+[debug] [2024-06-27T07:00:01.622Z] [unzip] mkdir: /home/radoslaw-klak/.cache/firebase/emulators/ui-v1.12.1/server/assets/
+[debug] [2024-06-27T07:00:01.622Z] [unzip] Entry: server/assets/multipart-parser-n20ATYm_.mjs.map (compressed_size=4790 bytes, uncompressed_size=17920 bytes)
+[debug] [2024-06-27T07:00:01.622Z] [unzip] Processing entry: server/assets/multipart-parser-n20ATYm_.mjs.map
+[debug] [2024-06-27T07:00:01.622Z] [unzip] else mkdir: /home/radoslaw-klak/.cache/firebase/emulators/ui-v1.12.1/server/assets
+[debug] [2024-06-27T07:00:01.624Z] [unzip] deflating: /home/radoslaw-klak/.cache/firebase/emulators/ui-v1.12.1/server/assets/multipart-parser-n20ATYm_.mjs.map
+[debug] [2024-06-27T07:00:01.625Z] [unzip] Entry: server/assets/multipart-parser-n20ATYm_.mjs (compressed_size=2625 bytes, uncompressed_size=10428 bytes)
+[debug] [2024-06-27T07:00:01.625Z] [unzip] Processing entry: server/assets/multipart-parser-n20ATYm_.mjs
+[debug] [2024-06-27T07:00:01.625Z] [unzip] else mkdir: /home/radoslaw-klak/.cache/firebase/emulators/ui-v1.12.1/server/assets
+[debug] [2024-06-27T07:00:01.625Z] [unzip] deflating: /home/radoslaw-klak/.cache/firebase/emulators/ui-v1.12.1/server/assets/multipart-parser-n20ATYm_.mjs
+[debug] [2024-06-27T07:00:01.626Z] [unzip] Entry: server/server.mjs (compressed_size=311497 bytes, uncompressed_size=1147307 bytes)
+[debug] [2024-06-27T07:00:01.627Z] [unzip] Processing entry: server/server.mjs
+[debug] [2024-06-27T07:00:01.627Z] [unzip] else mkdir: /home/radoslaw-klak/.cache/firebase/emulators/ui-v1.12.1/server
+[debug] [2024-06-27T07:00:01.627Z] [unzip] deflating: /home/radoslaw-klak/.cache/firebase/emulators/ui-v1.12.1/server/server.mjs
+[debug] [2024-06-27T07:00:01.646Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2024-06-27T07:00:01.646Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2024-06-27T07:00:01.646Z] Starting Emulator UI with command {"binary":"node","args":["/home/radoslaw-klak/.cache/firebase/emulators/ui-v1.12.1/server/server.mjs"],"optionalArgs":[],"joinArgs":false,"shell":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"/home/radoslaw-klak/.cache/firebase/emulators/ui-v1.12.1/server/server.mjs\"],\"optionalArgs\":[],\"joinArgs\":false,\"shell\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2024-06-27T07:00:01.815Z] Web / API server started at 127.0.0.1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at 127.0.0.1:4000\n"}}
+[debug] [2024-06-27T07:00:01.815Z] Web / API server started at ::1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at ::1:4000\n"}}
+[info] i  functions: Watching "/home/radoslaw-klak/projects/next/firebase/functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"/home/radoslaw-klak/projects/next/firebase/functions\" for Cloud Functions..."}}
+[debug] [2024-06-27T07:00:01.894Z] Validating nodejs source
+[debug] [2024-06-27T07:00:08.386Z] > [functions] package.json contents: {
+  "name": "functions",
+  "scripts": {
+    "lint": "eslint --ext .js,.ts .",
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "serve": "npm run build && firebase emulators:start --only functions",
+    "shell": "npm run build && firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "lib/index.js",
+  "dependencies": {
+    "firebase-admin": "^12.1.0",
+    "firebase-functions": "^5.0.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.12.0",
+    "@typescript-eslint/parser": "^5.12.0",
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-import": "^2.25.4",
+    "firebase-functions-test": "^3.1.0",
+    "typescript": "^4.9.0"
+  },
+  "private": true
+}
+[error] ⬢  functions: Failed to load function definition from source: FirebaseError: There was an error reading firebase/functions/package.json:
+
+ firebase/functions/lib/index.js does not exist, can't deploy Cloud Functions {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: There was an error reading firebase/functions/package.json:\n\n firebase/functions/lib/index.js does not exist, can't deploy Cloud Functions"}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4000/               │
+└─────────────────────────────────────────────────────────────┘
+
+┌────────────────┬────────────────┬─────────────────────────────────┐
+│ Emulator       │ Host:Port      │ View in Emulator UI             │
+├────────────────┼────────────────┼─────────────────────────────────┤
+│ Authentication │ 127.0.0.1:9099 │ http://127.0.0.1:4000/auth      │
+├────────────────┼────────────────┼─────────────────────────────────┤
+│ Functions      │ 127.0.0.1:5001 │ http://127.0.0.1:4000/functions │
+├────────────────┼────────────────┼─────────────────────────────────┤
+│ Firestore      │ 127.0.0.1:8080 │ http://127.0.0.1:4000/firestore │
+└────────────────┴────────────────┴─────────────────────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500, 9150
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2024-06-27T21:01:44.985Z] ----------------------------------------------------------------------
+[debug] [2024-06-27T21:01:44.988Z] Command:       /home/radoslaw-klak/.nvm/versions/node/v20.13.1/bin/node /home/radoslaw-klak/.nvm/versions/node/v20.13.1/bin/firebase emulators:start
+[debug] [2024-06-27T21:01:44.988Z] CLI Version:   13.12.0
+[debug] [2024-06-27T21:01:44.988Z] Platform:      linux
+[debug] [2024-06-27T21:01:44.988Z] Node Version:  v20.13.1
+[debug] [2024-06-27T21:01:44.989Z] Time:          Thu Jun 27 2024 23:01:44 GMT+0200 (czas środkowoeuropejski letni)
+[debug] [2024-06-27T21:01:44.989Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-06-27T21:01:44.997Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2024-06-27T21:01:45.146Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-06-27T21:01:45.146Z] > authorizing via signed-in user (radek.klak@gmail.com)
+[debug] [2024-06-27T21:01:45.476Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2024-06-27T21:01:45.477Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2024-06-27T21:01:46.819Z] openjdk version "21.0.3" 2024-04-16
+
+[debug] [2024-06-27T21:01:46.820Z] OpenJDK Runtime Environment (build 21.0.3+9-Ubuntu-1ubuntu1)
+OpenJDK 64-Bit Server VM (build 21.0.3+9-Ubuntu-1ubuntu1, mixed mode, sharing)
+
+[debug] [2024-06-27T21:01:46.896Z] Parsed Java major version: 21
+[info] i  emulators: Starting emulators: auth, functions, firestore {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: auth, functions, firestore"}}
+[debug] [2024-06-27T21:01:46.910Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-06-27T21:01:46.911Z] [auth] Authentication Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-06-27T21:01:46.911Z] [firestore] Firestore Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-06-27T21:01:46.911Z] [firestore.websocket] websocket server for firestore only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-06-27T21:01:46.912Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"auth":[{"address":"127.0.0.1","family":"IPv4","port":9099}],"firestore":[{"address":"127.0.0.1","family":"IPv4","port":8080}],"firestore.websocket":[{"address":"127.0.0.1","family":"IPv4","port":9150}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2024-06-27T21:01:46.927Z] [hub] writing locator at /tmp/hub-myclipo-project.json
+[debug] [2024-06-27T21:01:46.940Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-06-27T21:01:46.940Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-06-27T21:01:46.940Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"auth":[{"address":"127.0.0.1","family":"IPv4","port":9099}],"firestore":[{"address":"127.0.0.1","family":"IPv4","port":8080}],"firestore.websocket":[{"address":"127.0.0.1","family":"IPv4","port":9150}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[warn] ⚠  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: database, hosting, pubsub, storage, dataconnect {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mdatabase, hosting, pubsub, storage, dataconnect\u001b[22m"}}
+[debug] [2024-06-27T21:01:46.946Z] defaultcredentials: writing to file /home/radoslaw-klak/.config/firebase/radek_klak_gmail.com_application_default_credentials.json
+[debug] [2024-06-27T21:01:46.965Z] Setting GAC to /home/radoslaw-klak/.config/firebase/radek_klak_gmail.com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to /home/radoslaw-klak/.config/firebase/radek_klak_gmail.com_application_default_credentials.json"}}
+[debug] [2024-06-27T21:01:46.969Z] > refreshing access token with scopes: []
+[debug] [2024-06-27T21:01:46.971Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-06-27T21:01:46.971Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-06-27T21:01:47.151Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2024-06-27T21:01:47.151Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-06-27T21:01:47.264Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/myclipo-project/adminSdkConfig [none]
+[debug] [2024-06-27T21:01:47.589Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/myclipo-project/adminSdkConfig 200
+[debug] [2024-06-27T21:01:47.590Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/myclipo-project/adminSdkConfig {"projectId":"myclipo-project","storageBucket":"myclipo-project.appspot.com"}
+[debug] [2024-06-27T21:01:47.680Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"firestore"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2024-06-27T21:01:47.680Z] Ignoring unsupported arg: single_project_mode_error {"metadata":{"emulator":{"name":"firestore"},"message":"Ignoring unsupported arg: single_project_mode_error"}}
+[debug] [2024-06-27T21:01:47.681Z] Starting Firestore Emulator with command {"binary":"java","args":["-Dgoogle.cloud_firestore.debug_log_level=FINE","-Duser.language=en","-jar","/home/radoslaw-klak/.cache/firebase/emulators/cloud-firestore-emulator-v1.19.7.jar","--host","127.0.0.1","--port",8080,"--websocket_port",9150,"--project_id","myclipo-project","--rules","/home/radoslaw-klak/projects/next/firestore.rules","--single_project_mode",true,"--functions_emulator","127.0.0.1:5001"],"optionalArgs":["port","webchannel_port","host","rules","websocket_port","functions_emulator","seed_from_export","project_id","single_project_mode"],"joinArgs":false,"shell":false} {"metadata":{"emulator":{"name":"firestore"},"message":"Starting Firestore Emulator with command {\"binary\":\"java\",\"args\":[\"-Dgoogle.cloud_firestore.debug_log_level=FINE\",\"-Duser.language=en\",\"-jar\",\"/home/radoslaw-klak/.cache/firebase/emulators/cloud-firestore-emulator-v1.19.7.jar\",\"--host\",\"127.0.0.1\",\"--port\",8080,\"--websocket_port\",9150,\"--project_id\",\"myclipo-project\",\"--rules\",\"/home/radoslaw-klak/projects/next/firestore.rules\",\"--single_project_mode\",true,\"--functions_emulator\",\"127.0.0.1:5001\"],\"optionalArgs\":[\"port\",\"webchannel_port\",\"host\",\"rules\",\"websocket_port\",\"functions_emulator\",\"seed_from_export\",\"project_id\",\"single_project_mode\"],\"joinArgs\":false,\"shell\":false}"}}
+[info] i  firestore: Firestore Emulator logging to firestore-debug.log {"metadata":{"emulator":{"name":"firestore"},"message":"Firestore Emulator logging to \u001b[1mfirestore-debug.log\u001b[22m"}}
+[debug] [2024-06-27T21:01:54.869Z] Jun 27, 2024 11:01:54 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketServer start
+INFO: Started WebSocket server on ws://127.0.0.1:9150
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jun 27, 2024 11:01:54 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketServer start\nINFO: Started WebSocket server on ws://127.0.0.1:9150\n"}}
+[debug] [2024-06-27T21:01:54.940Z] API endpoint: http:// {"metadata":{"emulator":{"name":"firestore"},"message":"API endpoint: http://"}}
+[debug] [2024-06-27T21:01:54.940Z] 127.0.0.1:8080
+If you are using a library that supports the FIRESTORE_EMULATOR_HOST environment variable, run:
+
+   export FIRESTORE_EMULATOR_HOST=127.0.0.1:8080
+
+If you are running a Firestore in Datastore Mode project, run:
+
+   export DATASTORE_EMULATOR_HOST=127.0.0.1:8080
+
+Note: Support for Datastore Mode is in preview. If you encounter any bugs please file at https://github.com/firebase/firebase-tools/issues.
+Dev App Server is now running.
+
+ {"metadata":{"emulator":{"name":"firestore"},"message":"127.0.0.1:8080\nIf you are using a library that supports the FIRESTORE_EMULATOR_HOST environment variable, run:\n\n   export FIRESTORE_EMULATOR_HOST=127.0.0.1:8080\n\nIf you are running a Firestore in Datastore Mode project, run:\n\n   export DATASTORE_EMULATOR_HOST=127.0.0.1:8080\n\nNote: Support for Datastore Mode is in preview. If you encounter any bugs please file at https://github.com/firebase/firebase-tools/issues.\nDev App Server is now running.\n\n"}}
+[info] ✔  firestore: Firestore Emulator UI websocket is running on 9150. {"metadata":{"emulator":{"name":"firestore"},"message":"Firestore Emulator UI websocket is running on 9150."}}
+[debug] [2024-06-27T21:02:03.192Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2024-06-27T21:02:03.193Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2024-06-27T21:02:03.193Z] Starting Emulator UI with command {"binary":"node","args":["/home/radoslaw-klak/.cache/firebase/emulators/ui-v1.12.1/server/server.mjs"],"optionalArgs":[],"joinArgs":false,"shell":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"/home/radoslaw-klak/.cache/firebase/emulators/ui-v1.12.1/server/server.mjs\"],\"optionalArgs\":[],\"joinArgs\":false,\"shell\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2024-06-27T21:02:03.333Z] Web / API server started at 127.0.0.1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at 127.0.0.1:4000\n"}}
+[debug] [2024-06-27T21:02:03.333Z] Web / API server started at ::1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at ::1:4000\n"}}
+[info] i  functions: Watching "/home/radoslaw-klak/projects/next/firebase/functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"/home/radoslaw-klak/projects/next/firebase/functions\" for Cloud Functions..."}}
+[debug] [2024-06-27T21:02:03.404Z] Validating nodejs source
+[debug] [2024-06-27T21:02:05.870Z] > [functions] package.json contents: {
+  "name": "functions",
+  "scripts": {
+    "lint": "eslint --ext .js,.ts .",
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "serve": "npm run build && firebase emulators:start --only functions",
+    "shell": "npm run build && firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "lib/index.js",
+  "dependencies": {
+    "firebase-admin": "^12.1.0",
+    "firebase-functions": "^5.0.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.12.0",
+    "@typescript-eslint/parser": "^5.12.0",
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-import": "^2.25.4",
+    "firebase-functions-test": "^3.1.0",
+    "typescript": "^4.9.0"
+  },
+  "private": true
+}
+[error] ⬢  functions: Failed to load function definition from source: FirebaseError: There was an error reading firebase/functions/package.json:
+
+ firebase/functions/lib/index.js does not exist, can't deploy Cloud Functions {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: There was an error reading firebase/functions/package.json:\n\n firebase/functions/lib/index.js does not exist, can't deploy Cloud Functions"}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4000/               │
+└─────────────────────────────────────────────────────────────┘
+
+┌────────────────┬────────────────┬─────────────────────────────────┐
+│ Emulator       │ Host:Port      │ View in Emulator UI             │
+├────────────────┼────────────────┼─────────────────────────────────┤
+│ Authentication │ 127.0.0.1:9099 │ http://127.0.0.1:4000/auth      │
+├────────────────┼────────────────┼─────────────────────────────────┤
+│ Functions      │ 127.0.0.1:5001 │ http://127.0.0.1:4000/functions │
+├────────────────┼────────────────┼─────────────────────────────────┤
+│ Firestore      │ 127.0.0.1:8080 │ http://127.0.0.1:4000/firestore │
+└────────────────┴────────────────┴─────────────────────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500, 9150
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2024-06-27T21:03:27.160Z] Jun 27, 2024 11:03:27 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler initChannel
+INFO: Connected to new websocket client
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jun 27, 2024 11:03:27 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler initChannel\nINFO: Connected to new websocket client\n"}}
+[debug] [2024-06-27T21:03:57.560Z] Jun 27, 2024 11:03:57 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jun 27, 2024 11:03:57 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2024-06-27T21:03:58.135Z] Jun 27, 2024 11:03:58 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jun 27, 2024 11:03:58 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected HTTP/2 connection.\n"}}
+[debug] [2024-06-27T21:17:55.428Z] Jun 27, 2024 11:17:55 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler channelClosed
+INFO: Websocket client disconnected
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jun 27, 2024 11:17:55 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler channelClosed\nINFO: Websocket client disconnected\n"}}
+[debug] [2024-06-27T21:22:22.766Z] >>> [apiv2][query] POST http://127.0.0.1:5001/functions/projects/myclipo-project/trigger_multicast [none]
+[debug] [2024-06-27T21:22:22.766Z] >>> [apiv2][body] POST http://127.0.0.1:5001/functions/projects/myclipo-project/trigger_multicast {"eventId":"c077548f-57f4-41e0-b79b-980f672b69ca","eventType":"providers/firebase.auth/eventTypes/user.create","resource":{"name":"projects/myclipo-project","service":"firebaseauth.googleapis.com"},"params":{},"timestamp":"2024-06-27T21:22:22.765Z","data":{"uid":"kAbZOvLEkbSdYF7ISceGCW1HV1zU","email":"radek.klak@gmail.com","emailVerified":true,"displayName":"rklak","photoURL":"https://picsum.photos/200/300","metadata":{"creationTime":"2024-06-27T21:22:22.763Z","lastSignInTime":"2024-06-27T21:22:22.763Z"},"customClaims":{},"providerData":[{"providerId":"google.com","rawId":"0205640105090132454189013016388742258075","federatedId":"0205640105090132454189013016388742258075","displayName":"rklak","photoUrl":"https://picsum.photos/200/300","email":"radek.klak@gmail.com","screenName":"screen-rklak"}]}}
+[debug] [2024-06-27T21:22:22.782Z] <<< [apiv2][status] POST http://127.0.0.1:5001/functions/projects/myclipo-project/trigger_multicast 200
+[debug] [2024-06-27T21:22:22.782Z] <<< [apiv2][body] POST http://127.0.0.1:5001/functions/projects/myclipo-project/trigger_multicast {"status":"multicast_acknowledged"}
+[debug] [2024-06-28T06:09:10.988Z] Received signal SIGHUP 1
